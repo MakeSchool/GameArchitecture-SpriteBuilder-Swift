@@ -17,4 +17,3 @@ You can find the **new** art assets in the NewAssets folder.
 - Move game logic into a new Gameplay class, this should have its own scene CCB
 - Make level class that all levels use to load in custom properties
 - Make use of code connections with `Owner` to connect character, next level button, etc to Gameplay class (use CCBReader.load("CCBName" owner: self))
-- Use static class variable to keep track of current level

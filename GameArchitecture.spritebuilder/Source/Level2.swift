@@ -71,7 +71,7 @@ class Level2: CCNode, CCPhysicsCollisionDelegate {
   }
   
   func gameOver() {
-    let restartScene = CCBReader.loadAsScene("Level1")
+    let restartScene = CCBReader.loadAsScene("Level2")
     let transition = CCTransition(fadeWithDuration: 0.8)
     CCDirector.sharedDirector().presentScene(restartScene, withTransition: transition)
   }
