@@ -88,7 +88,6 @@
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		B78A0B10198AF87200C63841 /* Published-Android in Resources */ = {isa = PBXBuildFile; fileRef = B78A0B0F198AF87200C63841 /* Published-Android */; };
-		BC174EF21B30E6BC00732576 /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC174EF11B30E6BC00732576 /* Level1.swift */; };
 		BC174EFF1B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = BC174EFE1B30E9D600732576 /* CCActionFollow+CurrentOffset.m */; };
 		BC174F001B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = BC174EFE1B30E9D600732576 /* CCActionFollow+CurrentOffset.m */; };
 		BC174F011B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = BC174EFE1B30E9D600732576 /* CCActionFollow+CurrentOffset.m */; };
@@ -97,13 +96,13 @@
 		BC5399DA1A44DCC90063F482 /* GLActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D51A44DCC90063F482 /* GLActivityKit.framework */; };
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
+		BC5C2D741B312A7100789EC6 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D721B312A7100789EC6 /* Gameplay.swift */; };
+		BC5C2D751B312A7100789EC6 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D721B312A7100789EC6 /* Gameplay.swift */; };
+		BC5C2D761B312A7100789EC6 /* Gameplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D721B312A7100789EC6 /* Gameplay.swift */; };
+		BC5C2D771B312A7100789EC6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D731B312A7100789EC6 /* Level.swift */; };
+		BC5C2D781B312A7100789EC6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D731B312A7100789EC6 /* Level.swift */; };
+		BC5C2D791B312A7100789EC6 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C2D731B312A7100789EC6 /* Level.swift */; };
 		BCAAE6B91B3108FA002F8027 /* WinPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6B81B3108FA002F8027 /* WinPopup.swift */; };
-		BCAAE6BC1B3109A0002F8027 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BA1B3109A0002F8027 /* Level2.swift */; };
-		BCAAE6BD1B3109A0002F8027 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BA1B3109A0002F8027 /* Level2.swift */; };
-		BCAAE6BE1B3109A0002F8027 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BA1B3109A0002F8027 /* Level2.swift */; };
-		BCAAE6BF1B3109A0002F8027 /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BB1B3109A0002F8027 /* Level3.swift */; };
-		BCAAE6C01B3109A0002F8027 /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BB1B3109A0002F8027 /* Level3.swift */; };
-		BCAAE6C11B3109A0002F8027 /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAAE6BB1B3109A0002F8027 /* Level3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,7 +215,6 @@
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B78A0B0F198AF87200C63841 /* Published-Android */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Published-Android"; sourceTree = "<group>"; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
-		BC174EF11B30E6BC00732576 /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level1.swift; path = Source/Level1.swift; sourceTree = "<group>"; };
 		BC174EFD1B30E9D600732576 /* CCActionFollow+CurrentOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCActionFollow+CurrentOffset.h"; path = "Source/CCActionFollow+CurrentOffset.h"; sourceTree = "<group>"; };
 		BC174EFE1B30E9D600732576 /* CCActionFollow+CurrentOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCActionFollow+CurrentOffset.m"; path = "Source/CCActionFollow+CurrentOffset.m"; sourceTree = "<group>"; };
 		BC5399D31A44DCC90063F482 /* AndroidKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AndroidKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/AndroidKit.framework"; sourceTree = "<group>"; };
@@ -224,9 +222,9 @@
 		BC5399D51A44DCC90063F482 /* GLActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLActivityKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/GLActivityKit.framework"; sourceTree = "<group>"; };
 		BC5399D61A44DCC90063F482 /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaFoundation.framework"; sourceTree = "<group>"; };
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
+		BC5C2D721B312A7100789EC6 /* Gameplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gameplay.swift; path = Source/Gameplay.swift; sourceTree = "<group>"; };
+		BC5C2D731B312A7100789EC6 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level.swift; path = Source/Level.swift; sourceTree = "<group>"; };
 		BCAAE6B81B3108FA002F8027 /* WinPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinPopup.swift; path = Source/WinPopup.swift; sourceTree = "<group>"; };
-		BCAAE6BA1B3109A0002F8027 /* Level2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level2.swift; path = Source/Level2.swift; sourceTree = "<group>"; };
-		BCAAE6BB1B3109A0002F8027 /* Level3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level3.swift; path = Source/Level3.swift; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -453,9 +451,8 @@
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				7A046D7519E84C36004C4763 /* MainScene.swift */,
-				BC174EF11B30E6BC00732576 /* Level1.swift */,
-				BCAAE6BA1B3109A0002F8027 /* Level2.swift */,
-				BCAAE6BB1B3109A0002F8027 /* Level3.swift */,
+				BC5C2D721B312A7100789EC6 /* Gameplay.swift */,
+				BC5C2D731B312A7100789EC6 /* Level.swift */,
 				BCAAE6B81B3108FA002F8027 /* WinPopup.swift */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 			);
@@ -817,11 +814,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCAAE6C11B3109A0002F8027 /* Level3.swift in Sources */,
-				BCAAE6BE1B3109A0002F8027 /* Level2.swift in Sources */,
+				BC5C2D761B312A7100789EC6 /* Gameplay.swift in Sources */,
 				7A10CE5619F32FB0001673C3 /* MainScene.swift in Sources */,
 				BC174F011B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */,
 				7A40360419DDEE84007B6E8F /* main.m in Sources */,
+				BC5C2D791B312A7100789EC6 /* Level.swift in Sources */,
 				7A59498E19E3941300F65F90 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -830,9 +827,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCAAE6BD1B3109A0002F8027 /* Level2.swift in Sources */,
+				BC5C2D781B312A7100789EC6 /* Level.swift in Sources */,
 				5B121030197484FA004C1E1D /* GameArchitectureActivity.m in Sources */,
-				BCAAE6C01B3109A0002F8027 /* Level3.swift in Sources */,
+				BC5C2D751B312A7100789EC6 /* Gameplay.swift in Sources */,
 				BC174F001B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -841,13 +838,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC174EF21B30E6BC00732576 /* Level1.swift in Sources */,
 				BCAAE6B91B3108FA002F8027 /* WinPopup.swift in Sources */,
-				BCAAE6BF1B3109A0002F8027 /* Level3.swift in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				7A046D7919E84ED5004C4763 /* MainScene.swift in Sources */,
 				BC174EFF1B30E9D600732576 /* CCActionFollow+CurrentOffset.m in Sources */,
-				BCAAE6BC1B3109A0002F8027 /* Level2.swift in Sources */,
+				BC5C2D741B312A7100789EC6 /* Gameplay.swift in Sources */,
+				BC5C2D771B312A7100789EC6 /* Level.swift in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -71,10 +71,10 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>240</real>
-							<real>140</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>0.5</real>
+							<real>0.0</real>
+							<integer>1</integer>
+							<integer>2</integer>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -86,7 +86,7 @@
 						<key>value</key>
 						<array>
 							<real>0.5</real>
-							<real>0.5</real>
+							<real>1</real>
 						</array>
 					</dict>
 					<dict>
@@ -179,7 +179,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>112</real>
+							<real>14</real>
 							<real>14</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -193,7 +193,7 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
+							<real>0.0</real>
 							<real>0.0</real>
 						</array>
 					</dict>
@@ -287,11 +287,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>415</real>
-							<real>61</real>
+							<real>14</real>
+							<real>14</real>
+							<integer>3</integer>
 							<integer>0</integer>
-							<integer>1</integer>
-							<integer>1</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -301,8 +301,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>1</real>
+							<real>0.0</real>
 						</array>
 					</dict>
 					<dict>
@@ -395,10 +395,10 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>240</real>
-							<real>265</real>
-							<integer>0</integer>
-							<integer>0</integer>
+							<real>0.5</real>
+							<real>55</real>
+							<integer>1</integer>
+							<integer>2</integer>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -503,10 +503,10 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>240</real>
-							<real>150</real>
+							<real>0.5</real>
+							<real>120</real>
 							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
 							<integer>0</integer>
 						</array>
 					</dict>

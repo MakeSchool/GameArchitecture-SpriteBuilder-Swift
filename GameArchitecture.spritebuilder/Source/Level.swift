@@ -1,5 +1,5 @@
 //
-//  WinPopup.swift
+//  Level.swift
 //  GameArchitecture
 //
 //  Created by Dion Larson on 6/16/15.
@@ -8,6 +8,9 @@
 
 import Foundation
 
-class WinPopup: CCNode {
+class Level: CCNode {
+  
+  var nextLevelName: String!
+  var levelSpeed: Int = 40
   
 }
