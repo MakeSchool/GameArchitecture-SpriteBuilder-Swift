@@ -21,7 +21,7 @@ class Level2: CCNode, CCPhysicsCollisionDelegate {
   override func onEnter() {
     super.onEnter()
     
-    let follow = CCActionFollow.actionWithTarget(character, worldBoundary: gamePhysicsNode.boundingBox()) as! CCActionFollow
+    let follow = CCActionFollow(target: character, worldBoundary: gamePhysicsNode.boundingBox())
     gamePhysicsNode.position = follow.currentOffset()
     gamePhysicsNode.runAction(follow)
   }
