@@ -78,26 +78,6 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>ArchitectureAssets</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
-		<key>Background</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
-		<key>Background/background.png</key>
-		<dict>
-			<key>scaleFrom</key>
-			<integer>4</integer>
-		</dict>
-		<key>MenuAssets</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
 		<key>MenuAssets/button_about.png</key>
 		<dict>
 			<key>scaleFrom</key>
@@ -117,11 +97,6 @@
 		<dict>
 			<key>scaleFrom</key>
 			<integer>4</integer>
-		</dict>
-		<key>NewAssets</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
 		</dict>
 		<key>Sprites</key>
 		<dict/>

@@ -49,7 +49,7 @@ class Gameplay: CCNode {
     levelSpeed = CGFloat(loadedLevel.levelSpeed)
     
     // CHANGE: use loadedLevel's bounding box instead
-    let follow = CCActionFollow.actionWithTarget(character, worldBoundary: loadedLevel.boundingBox()) as! CCActionFollow
+    let follow = CCActionFollow(target: character, worldBoundary: loadedLevel.boundingBox())
     gamePhysicsNode.position = follow.currentOffset()
     gamePhysicsNode.runAction(follow)
   }

@@ -261,8 +261,6 @@
 				<array/>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 		<key>seqExpanded</key>
 		<true/>
 	</dict>
@@ -312,7 +310,7 @@
 				<integer>12</integer>
 			</dict>
 			<key>chainedSequenceId</key>
-			<integer>-1</integer>
+			<integer>0</integer>
 			<key>length</key>
 			<real>0.30000001192092896</real>
 			<key>name</key>
