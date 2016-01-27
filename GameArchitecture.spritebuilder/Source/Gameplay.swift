@@ -11,7 +11,7 @@ import Foundation
 // CHANGE: moved majority of code from LevelX classes to Gameplay class and
 //         LevelX classes removed to reduce code duplication
 
-class Gameplay: CCNode {
+class Gameplay: CCNode, CCPhysicsCollisionDelegate {
   
   // CHANGE: levelNode for holding levels
   weak var levelNode: CCNode!
@@ -119,7 +119,9 @@ class Gameplay: CCNode {
     let popup = CCBReader.load("WinPopup", owner:self) as! WinPopup
     popup.positionType = CCPositionType(xUnit: .Normalized, yUnit: .Normalized, corner: .BottomLeft)
     popup.position = CGPoint(x: 0.5, y: 0.5)
-    parent.addChild(popup)
+    if let parent = parent {
+        parent.addChild(popup)
+    }
     
     return true
   }
