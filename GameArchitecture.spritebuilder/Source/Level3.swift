@@ -39,7 +39,7 @@ class Level3: CCNode, CCPhysicsCollisionDelegate {
         self.character.physicsBody.applyImpulse(CGPoint(x: 0, y: 2000))
         self.jumped = true
         
-        NSTimer.scheduledTimerWithTimeInterval(0.3, target: self, selector: Selector("resetJump"), userInfo: nil, repeats: false)
+        self.scheduleOnce("resetJump", delay:0.3)
       }
     }
   }
