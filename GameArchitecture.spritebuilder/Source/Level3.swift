@@ -59,7 +59,9 @@ class Level3: CCNode, CCPhysicsCollisionDelegate {
     popup.positionType = CCPositionType(xUnit: .Normalized, yUnit: .Normalized, corner: .BottomLeft)
     popup.position = CGPoint(x: 0.5, y: 0.5)
     popup.nextLevelName = "MainScene"
-    parent.addChild(popup)
+    if let parent = parent {
+        parent.addChild(popup)
+    }
     
     return true
   }
